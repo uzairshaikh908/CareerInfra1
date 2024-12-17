@@ -1,0 +1,505 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CareerInfra</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="../ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="../crm/images/eclavelogoo.JPG-1660729813_-1661704163">
+    <script src="../bdb1983359.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="../create_channel/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
+</head>
+
+<body>
+
+    <header>
+
+
+        <div class="container-fluid _header-div">
+
+            <div class="row _flex">
+
+                <div class="col-md-3 col-xs-8 text-left">
+
+                    <img class="img-responsive" src="../avatar/logo1.jpg" alt="Eclave Integrated Pvt Ltd">
+
+                </div>
+
+                <div class="col-md-6 col-xs-4 col-md-offset-3 text-right">
+
+                    <!-- <button type="button" onclick="window.location.href = 'http://eclave.edumilestones.com/login'; "
+                        class="btn btn-primary">Home</button> -->
+
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#sign-in-modal"
+                        data-backdrop="static" data-keyboard="false">Login</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <input type="text" id="channel_id" hidden="" value="MTg5NA==">
+    <input type="text" id="subcrm_id" hidden="" value="">
+
+    <div class="container-fluid">
+
+        <aside>
+
+            <div class="sidenav">
+
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-circle"></i>
+                        <span class="heading" data-action="profiling"><i class="fa-solid fa-file-pen"></i> Step 1 <span
+                                class="step">Complete Profiling</span>
+                        </span>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-circle"></i> <span class="heading" data-action="colleges"><i
+                                class="fa-solid fa-building-columns"></i> Step 2 <span class="step">Shortlist
+                                Colleges</span>
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i> <span class="heading" data-action="english-test"><i
+                                class="fa-brands fa-searchengin"></i> Step 3 <span class="step">English Test</span>
+                        </span>
+                    </li>
+                    <!-- <li>
+                                        <span class="heading" data-action="shortlisted">Applieds <span class="step">Step 3</span></span>
+                </li> -->
+
+                    <li>
+                        <i class="fa-solid fa-circle"></i> <span class="heading" data-action="documents"><i
+                                class="fa-solid fa-file-import"></i> Step 4 <span class="step">Documents</span>
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i> <span class="heading" data-action="sop-maker"><i
+                                class="fa-solid fa-file-invoice"></i> Step 5 <span class="step">SOP Maker</span>
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i> <span class="heading" data-action="college-applications"><i
+                                class="fa-solid fa-chart-gantt"></i> Step 6 <span class="step">Application
+                                Tracking</span>
+                        </span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-circle"></i> <span class="heading" data-action="documents"><i
+                                class="fa-solid fa-id-card"></i> Step 7 <span class="step">Visa Documents</span>
+                        </span>
+                    </li>
+                    <!-- <li>
+                    <i class="fa-solid fa-circle"></i>                    <span class="heading" data-action="college-applications"><i class="fa-solid fa-passport"></i> Step 8 <span class="step">Visa Process</span>
+                </li>                -->
+                    <div class="_progress" style="height: 0%"></div>
+                </ul>
+
+                <input type="text" value="documents" hidden="" id="show_doc_type">
+
+            </div>
+
+        </aside>
+
+    </div>
+
+    <section class="main-section">
+
+        <div class="row" style="margin: 0;">
+
+            <div class="col-md-12">
+
+
+                <div class="selection-box">
+
+                    <h5>Give us A Chance</h5>
+                    <h1>To build your journey</h1>
+                    <h4>Choose, What do you want to study Abroad?</h4>
+
+                    <ul>
+
+
+                        <li><span class="opt" data-level="1"><i class="fa-solid fa-circle-dot"></i></span><span
+                                class="opt-name">Bachelors</span></li>
+
+
+                        <li><span class="opt" data-level="2"><i class="fa-solid fa-circle-dot"></i></span><span
+                                class="opt-name">Masters</span></li>
+
+
+                        <li><span class="opt" data-level="3"><i class="fa-solid fa-circle-dot"></i></span><span
+                                class="opt-name">Doctorial</span></li>
+
+
+                    </ul>
+
+                    <!-- <div class="hidden-loader"><img src="/student-profiler/loader.svg"></div>
+
+                    <h3>What do you want to study Abroad?</h3>
+
+                    <ul>
+                        <li><span class="opt" data-level="1"><i class="fa-solid fa-circle-dot"></i></span><span class="opt-name">Bachelors</span></li>
+                        <li><span class="opt" data-level="2"><i class="fa-solid fa-circle-dot"></i></span><span class="opt-name">Masters</span></li>
+                        <li><span class="opt" data-level="3"><i class="fa-solid fa-circle-dot"></i></span><span class="opt-name">Doctorial</span></li>
+                    </ul> -->
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Signup Modal -->
+    <div id="sign-up-modal" class="modal fade" role="dialog">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal" style="opacity: 1;">&times;</button>
+
+                    <h4>Sign Up to Submit and View the Report</h4>
+
+                    <form method="POST" id="sign-up-form">
+
+                        <span class="form_error"></span>
+
+                        <div class="form-group">
+                            <label>Name <span>*</span></label>
+                            <input type="text" class="form-control" name="name">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Email Id <span>*</span></label>
+                            <input type="text" class="form-control" name="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Phone Number <span>*</span></label>
+                            <input type="number" class="form-control" name="number">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Location <span>*</span></label>
+                            <input type="text" class="form-control" name="location">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Password <span>*</span></label>
+                            <input type="password" class="form-control" name="password">
+                        </div>
+
+                        <button type="button" class="btn btn-primary sign-up">Sign Up <img src="loader.gif"
+                                id="loader"></button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Signin Modal -->
+    <div id="sign-in-modal" class="modal fade" role="dialog">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal" style="opacity: 1;">&times;</button>
+
+                    <h4>Log In</h4>
+
+                    <form method="POST" id="sign-in-form">
+
+                        <span class="form_error"></span>
+
+                        <div class="form-group">
+                            <label>Email Id <span>*</span></label>
+                            <input type="text" class="form-control" name="email">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Password <span>*</span></label>
+                            <input type="password" class="form-control" name="password">
+                        </div>
+
+                        <div class="g-recaptcha" data-sitekey="6LdB68sUAAAAAE4TAXusUVQ-zifq4ypQ4NCXd-bG"></div>
+                        <script src="../recaptcha/api.js"></script>
+
+                        <button type="button" style="margin-top: 15px;" class="btn btn-primary sign-in">Log In <img
+                                src="loader.gif" id="loader"></button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Status Modal -->
+    <div id="status-modal" class="modal fade" role="dialog">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="data"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- UPLOAD OTHER DOCUMENTS Modal -->
+    <div id="uploadOtherDocuments" class="modal fade" role="dialog">
+
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4>Upload Other Document</h4>
+
+                    <form method="POST" id="otherDocForm" enctype="multipart/form-data">
+
+                        <span class="form_error"></span>
+
+                        <input type="text" hidden="" name="check" value="uploadotherdocument">
+                        <input type="text" name="doc_type" hidden="" id="doc_type">
+
+                        <div class="form-group">
+                            <label for="usr">Document Name:</label>
+                            <input type="text" name="doc_name" required="" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="usr">Upload File:</label>
+                            <input type="file" name="doc_file" id="un_oth_doc" required="" class="form-control">
+                        </div>
+
+                        <div class="form-group text-center">
+                            <!-- <input type="button" style="margin: 10px 0 0 0;" value="Submit" class="btn btn-primary uploadOthDoc"> -->
+                            <button type="button" class="btn btn-primary btn-lg sp-btn uploadOthDoc">Submit <img
+                                    src="../qq8AE.gif" id="loader"
+                                    style="max-width: 18px;margin-left: 10px;display: none;"></button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- New Signup Modal -->
+    <div id="new-sign-up-modal" class="modal fade" role="dialog">
+
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+
+                            <div class="banner">
+
+                                <img src="Course-Finder.gif" class="img-responsive" loading="lazy">
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+
+                            <div class="form-action">
+
+                                <h1>Welcome to Course Finder!</h1>
+                                <p>Sign Up to Submit and View the Report</p>
+
+                                <form method="POST" id="new-sign-up-form">
+
+                                    <span class="form_error"></span>
+
+                                    <div id="proceed-to-otp">
+
+                                        <div class="form-group">
+                                            <label>Name <span>*</span></label>
+                                            <input type="text" class="form-control" name="name">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Email Id <span>*</span></label>
+                                            <input type="text" class="form-control" name="email">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Password/Phone Number <span>*</span></label>
+                                            <input type="number" class="form-control" name="number">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Location <span>*</span></label>
+                                            <input type="text" class="form-control" name="location">
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary request-otp">PROCEED <img
+                                                src="loader.gif" id="loader"></button>
+
+                                    </div>
+
+                                    <div id="verify-to-otp">
+
+                                        <div class="form-group" style="margin-bottom: 5px;">
+                                            <label>Enter Code <span>*</span></label>
+                                            <label id="tempOTPShow"></label>
+                                        </div>
+
+                                        <div class="form-group verify-otp-boxes">
+                                            <input type="tel" class="form-control" name="otp__1" id="otp__1"
+                                                data-next="otp__2">
+                                            <input type="tel" class="form-control" name="otp__2" id="otp__2"
+                                                data-next="otp__3" data-previous="otp__1">
+                                            <input type="tel" class="form-control" name="otp__3" id="otp__3"
+                                                data-next="otp__4" data-previous="otp__2">
+                                            <input type="tel" class="form-control" name="otp__4" id="otp__4"
+                                                data-next="otp__5" data-previous="otp__3">
+                                            <input type="tel" class="form-control" name="otp__5" id="otp__5"
+                                                data-next="otp__6" data-previous="otp__4">
+                                            <input type="tel" class="form-control" name="otp__6" id="otp__6"
+                                                data-previous="otp__5">
+                                        </div>
+
+                                        <button type="button" class="btn btn-primary validate-otp">Verify and Proceed
+                                            <img src="loader.gif" id="loader"></button>
+
+                                    </div>
+
+                                </form>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Book Appointment Modal -->
+    <div id="bookAppointmentModal" class="modal fade" role="dialog">
+
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4>Book Your Appointment</h4>
+
+                    <form method="POST" id="bookAppointment" enctype="multipart/form-data">
+
+                        <span class="form_error"></span>
+
+                        <div class="form-group">
+                            <label>Select Date</label>
+                            <input type="text" name="date" value="2024-11-27" required="" class="form-control"
+                                autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Select Time</label>
+                            <ul>
+                                <li>10:00 PM</li>
+                                <li>10:30 PM</li>
+                                <li>11:00 PM</li>
+                                <li>11:30 PM</li>
+                                <li>12:00 PM</li>
+                                <li>12:30 PM</li>
+                                <li>01:00 PM</li>
+                                <li>01:30 PM</li>
+                                <li>02:00 PM</li>
+                                <li>02:30 PM</li>
+                                <li>03:00 PM</li>
+                                <li>03:30 PM</li>
+                                <li>04:00 PM</li>
+                                <li>04:30 PM</li>
+                                <li>05:00 PM</li>
+                                <li>05:30 PM</li>
+                                <li>06:00 PM</li>
+                            </ul>
+                        </div>
+
+                        <input type="text" hidden="" name="time" required="">
+
+                        <div class="form-group text-center">
+                            <button type="button" class="btn btn-primary btn-lg sp-btn bookAppointment">Book Now <img
+                                    src="../qq8AE.gif" id="loader"
+                                    style="max-width: 18px;margin-left: 10px;display: none;"></button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="../create_channel/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>

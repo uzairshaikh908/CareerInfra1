@@ -1,0 +1,92 @@
+Uri: https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\ajax\libs\jquery\3.6.0\jquery.min.js
+Content Type: text/javascript
+
+Uri: https://careertest.edumilestones.com/Inter-ExtraBold.ttf
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\Inter-ExtraBold.ttf
+Content Type: font/ttf
+
+Uri: https://careertest.edumilestones.com/Metropolis-Regular.otf
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\Metropolis-Regular.otf
+Content Type: font/ttf
+
+Uri: https://careertest.edumilestones.com/student-profiler/?channel_id=MTg5NA==
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\student-profiler\index.htm
+Content Type: text/html
+
+Uri: https://careertest.edumilestones.com/student-profiler/Course-Finder.gif
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\student-profiler\Course-Finder.gif
+Content Type: image/gif
+
+Uri: https://careertest.edumilestones.com/student-profiler/loader.gif
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\student-profiler\loader.gif
+Content Type: image/gif
+
+Uri: https://careertest.edumilestones.com/student-profiler/profiler-bg.png
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\student-profiler\profiler-bg.png
+Content Type: image/png
+
+Uri: https://careertest.edumilestones.com/student-profiler/script.js
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\student-profiler\script.js
+Content Type: application/javascript
+
+Uri: https://careertest.edumilestones.com/student-profiler/style.css
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\student-profiler\style.css
+Content Type: text/css
+
+Uri: https://kit.fontawesome.com/bdb1983359.js
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bdb1983359.js
+Content Type: text/javascript
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.eot
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\fonts\glyphicons-halflings-regular.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.eot?
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\fonts\glyphicons-halflings-regular-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.svg
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\fonts\glyphicons-halflings-regular.svg
+Content Type: image/svg+xml
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.ttf
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\fonts\glyphicons-halflings-regular.ttf
+Content Type: font/ttf
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.woff
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\fonts\glyphicons-halflings-regular.woff
+Content Type: font/woff
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/fonts/glyphicons-halflings-regular.woff2
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\fonts\glyphicons-halflings-regular.woff2
+Content Type: font/woff2
+
+Uri: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\bootstrap\3.4.1\js\bootstrap.min.js
+Content Type: application/javascript
+
+Uri: https://www.edumilestones.com/create_channel/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\create_channel\bower_components\bootstrap-datepicker\dist\css\bootstrap-datepicker.min.css
+Content Type: text/css
+
+Uri: https://www.edumilestones.com/create_channel/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\create_channel\bower_components\bootstrap-datepicker\dist\js\bootstrap-datepicker.min.js
+Content Type: application/javascript
+
+Uri: https://www.edumilestones.com/crm/images/eclavelogoo.JPG-1660729813_-1661704163.
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\crm\images\eclavelogoo.JPG-1660729813_-1661704163
+Content Type: 
+
+Uri: https://www.edumilestones.com/qq8AE.gif
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\qq8AE.gif
+Content Type: image/gif
+
+Uri: https://www.google.com/recaptcha/api.js
+File Name: C:\Downloaded Web Sites\eclave\careertest.edumilestones.com\recaptcha\api.js
+Content Type: text/javascript
+

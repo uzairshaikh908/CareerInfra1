@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .faq {
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .faq-question {
+            background-color: #f7f7f7;
+            padding: 15px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .faq-question:hover {
+            background-color: #f0f0f0;
+        }
+
+        .faq-answer {
+            padding: 15px;
+            background-color: #ffffff;
+            display: none;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .faq.open .faq-answer {
+            display: block;
+        }
+
+        .faq-question::after {
+            content: "+";
+            font-size: 18px;
+            transition: transform 0.3s ease;
+        }
+
+        .faq.open .faq-question::after {
+            content: "-";
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq">
+            <div class="faq-question">What is the cost of studying in the UK?</div>
+            <div class="faq-answer">The cost varies depending on the university and program but typically ranges from 15
+                to 30 Lakhs INR per year, including tuition and living expenses.</div>
+        </div>
+        <div class="faq">
+            <div class="faq-question">Can I work part-time while studying?</div>
+            <div class="faq-answer">Yes, international students in the UK can work up to 20 hours per week during term
+                time and full-time during holidays.</div>
+        </div>
+        <div class="faq">
+            <div class="faq-question">What are the visa requirements?</div>
+            <div class="faq-answer">You need a valid Tier 4 (Student) visa, proof of funds, a CAS (Confirmation of
+                Acceptance for Studies) from your university, and proof of English proficiency.</div>
+        </div>
+        <div class="faq">
+            <div class="faq-question">Are scholarships available for international students?</div>
+            <div class="faq-answer">Yes, many universities and organizations offer scholarships based on merit,
+                financial need, or specific fields of study.</div>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript for toggling FAQ answers (only one open at a time)
+        const faqQuestions = document.querySelectorAll('.faq-question');
+
+        faqQuestions.forEach(question => {
+            question.addEventListener('click', () => {
+                const parent = question.parentElement;
+
+                // Close all open FAQs
+                document.querySelectorAll('.faq').forEach(faq => {
+                    if (faq !== parent) {
+                        faq.classList.remove('open');
+                    }
+                });
+
+                // Toggle the current FAQ
+                parent.classList.toggle('open');
+            });
+        });
+    </script>
+</body>
+
+</html>
